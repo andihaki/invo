@@ -4,26 +4,29 @@ version: '3'
 
 services:
   invo-8.0:
+    platform: linux/amd64
     container_name: invo-8.0
     hostname: invo-80
     build: docker/8.0
-    working_dir: /srv
+    working_dir: /src
     volumes:
-      - .:/srv
+      - .:/src
     ports:
       - 80:80
 
   invo-8.1:
+    platform: linux/amd64
     container_name: invo-8.1
     hostname: invo-81
     build: docker/8.1
-    working_dir: /srv
+    working_dir: /src
     volumes:
-      - .:/srv
+      - .:/src
     ports:
       - 81:80
 
   mysql:
+    platform: linux/amd64
     container_name: invo-mysql
     hostname: invo-mysql
     image: mysql:5.7
