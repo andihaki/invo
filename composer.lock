@@ -2501,16 +2501,16 @@
         },
         {
             "name": "phalcon/migrations",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phalcon/migrations.git",
-                "reference": "84f509fcdd62b5d4cb029490120d0a45690a12b0"
+                "reference": "69c1ea982a94e13510201e642e408dea9d554539"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phalcon/migrations/zipball/84f509fcdd62b5d4cb029490120d0a45690a12b0",
-                "reference": "84f509fcdd62b5d4cb029490120d0a45690a12b0",
+                "url": "https://api.github.com/repos/phalcon/migrations/zipball/69c1ea982a94e13510201e642e408dea9d554539",
+                "reference": "69c1ea982a94e13510201e642e408dea9d554539",
                 "shasum": ""
             },
             "require": {
@@ -2584,7 +2584,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2022-09-26T07:15:01+00:00"
+            "time": "2023-05-03T09:02:17+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -6103,5 +6103,5 @@
         "ext-pdo": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
